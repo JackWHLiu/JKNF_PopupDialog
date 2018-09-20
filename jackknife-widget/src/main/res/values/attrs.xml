@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Copyright (C) 2017 The JackKnife Open Source Project
+  ~  *
+  ~  * Licensed under the Apache License, Version 2.0 (the "License");
+  ~  * you may not use this file except in compliance with the License.
+  ~  * You may obtain a copy of the License at
+  ~  *
+  ~  *      http://www.apache.org/licenses/LICENSE-2.0
+  ~  *
+  ~  * Unless required by applicable law or agreed to in writing, software
+  ~  * distributed under the License is distributed on an "AS IS" BASIS,
+  ~  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  * See the License for the specific language governing permissions and
+  ~  * limitations under the License.
+  ~  */
+  -->
+
+<resources>
+    <declare-styleable name="ShadeView">
+        <attr name="shadeview_icon" format="reference"/>
+        <attr name="shadeview_text" format="string|reference"/>
+        <attr name="shadeview_textColor" format="color|reference"/>
+        <attr name="shadeview_textSize" format="dimension|reference"/>
+        <attr name="shadeview_hoverColor" format="color|reference"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalTabBar">
+        <attr name="horizontaltabbar_underlineHeight" format="dimension|reference" />
+        <attr name="horizontaltabbar_underlineColor" format="color|reference" />
+        <attr name="horizontaltabbar_indicatorHeight" format="dimension|reference" />
+        <attr name="horizontaltabbar_indicatorColor" format="color|reference" />
+        <attr name="horizontaltabbar_dividerWidth" format="dimension|reference"/>
+        <attr name="horizontaltabbar_dividerColor" format="color|reference" />
+        <attr name="horizontaltabbar_dividerPaddingTop" format="dimension|reference" />
+        <attr name="horizontaltabbar_dividerPaddingBottom" format="dimension|reference" />
+        <attr name="horizontaltabbar_tabPaddingLeft" format="dimension|reference" />
+        <attr name="horizontaltabbar_tabPaddingRight" format="dimension|reference" />
+        <attr name="horizontaltabbar_tabColor" format="color|reference"/>
+        <attr name="horizontaltabbar_tabTextSize" format="dimension|reference"/>
+        <attr name="horizontaltabbar_tabTextColor" format="color|reference" />
+        <attr name="horizontaltabbar_tabSelectedTextColor" format="color|reference"/>
+        <attr name="horizontaltabbar_isAverage" format="boolean" />
+        <attr name="horizontaltabbar_textAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="LetterView">
+        <attr name="letterview_letters" format="string|reference"/>
+        <attr name="letterview_textSize" format="dimension|reference"/>
+        <attr name="letterview_textColor" format="color|reference"/>
+        <attr name="letterview_hoverTextColor" format="color|reference"/>
+        <attr name="letterview_hoverBackgroundDrawable" format="reference"/>
+        <attr name="letterview_textAllCaps" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="RadarView">
+        <attr name="radarview_radarColor" format="color|reference"/>
+        <attr name="radarview_circleRadius" format="dimension"/>
+        <attr name="radarview_spaceRadius" format="dimension"/>
+        <attr name="radarview_annulusNum" format="integer"/>
+        <attr name="radarview_annulusWidth" format="dimension"/>
+        <attr name="radarview_annulusColor" format="color|reference"/>
+        <attr name="radarview_rotateRate">
+            <enum name="slow" value="0"/>
+            <enum name="fast" value="1"/>
+        </attr>
+        <attr name="radarview_reverse" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="HighlightTextView">
+        <attr name="highlighttextview_defaultColor" format="color|reference"/>
+        <attr name="highlighttextview_highlightColor" format="color|reference"/>
+    </declare-styleable>
+    <declare-styleable name="AutoEditTextGroup">
+        <attr name="autoedittextgroup_sectionTextSize" format="dimension|reference"/>
+        <attr name="autoedittextgroup_semicolonTextSize" format="dimension|reference"/>
+        <attr name="autoedittextgroup_sectionPadding" format="dimension|reference"/>
+        <attr name="autoedittextgroup_semicolonPadding" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatorScrollView">
+        <attr name="animatorscrollview_firstMatchHeight" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatorHorizontalScrollView">
+        <attr name="animatorhorizontalscrollview_firstMatchWidth" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatorViewWrapper">
+        <attr name="animatorviewwrapper_alpha" format="boolean"/>
+        <attr name="animatorviewwrapper_scaleX" format="boolean"/>
+        <attr name="animatorviewwrapper_scaleY" format="boolean"/>
+        <attr name="animatorviewwrapper_fromColor" format="color"/>
+        <attr name="animatorviewwrapper_toColor" format="color"/>
+        <attr name="animatorviewwrapper_translation"/>
+    </declare-styleable>
+    <attr name="animatorviewwrapper_translation">
+        <flag name="fromLeft" value="0x01"/>
+        <flag name="fromTop" value="0x02"/>
+        <flag name="fromRight" value="0x04"/>
+        <flag name="fromBottom" value="0x08"/>
+    </attr>
+    <declare-styleable name="BottomNavigationBar">
+        <attr name="bottomnavigationbar_checkedButton" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="InstrumentView">
+        <attr name="instrumentview_title" format="string|reference"/>
+        <attr name="instrumentview_body" format="string|reference"/>
+        <attr name="instrumentview_titleTextColor" format="color|reference"/>
+        <attr name="instrumentview_titleTextSize" format="dimension|reference"/>
+        <attr name="instrumentview_bodyTextColor" format="color|reference"/>
+        <attr name="instrumentview_bodyTextSize" format="dimension|reference"/>
+        <attr name="instrumentview_annulusWidth" format="dimension|reference"/>
+        <attr name="instrumentview_backgroundColor" format="color|reference"/>
+        <attr name="instrumentview_annulusColor" format="color|reference"/>
+        <attr name="instrumentview_annulusHoverColor" format="color|reference"/>
+        <attr name="instrumentview_animationTime" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="VerifyCodeEditTextGroup">
+        <attr name="verifycodeedittextgroup_type">
+            <enum name="lengthFour" value="0"/>
+            <enum name="lengthSix" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TitleBar">
+        <attr name="titlebar_title" format="string"/>
+        <attr name="titlebar_titleTextColor" format="color"/>
+        <attr name="titlebar_titleTextSize" format="dimension"/>
+        <attr name="titlebar_leftDrawable" format="reference"/>
+        <attr name="titlebar_rightDrawable" format="reference"/>
+        <attr name="titlebar_leftDrawableSize" format="dimension"/>
+        <attr name="titlebar_rightDrawableSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingMenu">
+        <attr name="slidingmenu_menuRightPadding" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressButton">
+        <attr name="progressbutton_cornerRadius" format="dimension|reference"/>
+        <attr name="progressbutton_showBorder" format="boolean"/>
+        <attr name="progressbutton_borderWidth" format="dimension|reference"/>
+        <attr name="progressbutton_textSize" format="dimension|reference"/>
+        <attr name="progressbutton_textColor" format="color|reference"/>
+        <attr name="progressbutton_hoverTextColor" format="color|reference"/>
+        <attr name="progressbutton_backgroundColor" format="color|reference"/>
+        <attr name="progressbutton_secondaryBackgroundColor" format="color|reference"/>
+        <attr name="progressbutton_ballSpacing" format="dimension|reference"/>
+        <attr name="progressbutton_ballRadius" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="CircularProgressBar">
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SlidingItem">
+        <attr name="swipeAllowed" format="boolean"/>
+        <attr name="mutex" format="boolean"/>
+        <attr name="isLeftSwipe" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="LuckyWheelView">
+        <attr name="interval_line_width" format="dimension" />
+        <attr name="circle_line_width" format="dimension" />
+        <attr name="item_title_text_size" format="dimension" />
+        <attr name="item_content_text_size" format="dimension" />
+        <attr name="item_title_color" format="color" />
+        <attr name="item_content_color" format="color" />
+        <attr name="line_color" format="color" />
+        <attr name="un_select_color" format="color" />
+        <attr name="selected_color" format="color" />
+    </declare-styleable>
+    <attr name="shadeViewStyle" format="reference" />
+    <attr name="horizontalTabBarStyle" format="reference"/>
+    <attr name="letterViewStyle" format="reference"/>
+    <attr name="radarViewStyle" format="reference"/>
+    <attr name="highlightTextViewStyle" format="reference"/>
+    <attr name="autoEditTextGroupStyle" format="reference"/>
+    <attr name="animatorScrollViewStyle" format="reference"/>
+    <attr name="animatorHorizontalScrollViewStyle" format="reference"/>
+    <attr name="animatorViewWrapperStyle" format="reference"/>
+    <attr name="bottomNavigationBarStyle" format="reference"/>
+    <attr name="instrumentViewStyle" format="reference"/>
+    <attr name="verifyCodeEditTextGroupStyle" format="reference"/>
+    <attr name="titleBarStyle" format="reference"/>
+    <attr name="slidingMenuStyle" format="reference"/>
+    <attr name="progressButtonStyle" format="reference"/>
+</resources>

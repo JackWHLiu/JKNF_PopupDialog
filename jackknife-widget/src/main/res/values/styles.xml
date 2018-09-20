@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Copyright (C) 2017 The JackKnife Open Source Project
+  ~  *
+  ~  * Licensed under the Apache License, Version 2.0 (the "License");
+  ~  * you may not use this file except in compliance with the License.
+  ~  * You may obtain a copy of the License at
+  ~  *
+  ~  *      http://www.apache.org/licenses/LICENSE-2.0
+  ~  *
+  ~  * Unless required by applicable law or agreed to in writing, software
+  ~  * distributed under the License is distributed on an "AS IS" BASIS,
+  ~  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  * See the License for the specific language governing permissions and
+  ~  * limitations under the License.
+  ~  */
+  -->
+
+<resources>
+    <style name="JackKnife.Theme.Widget">
+    </style>
+    <style name="JackKnife.Theme.Widget.ShadeView">
+        <item name="shadeview_textColor">@color/gray</item>
+        <item name="shadeview_textSize">12sp</item>
+        <item name="shadeview_hoverColor">@color/green</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.HorizontalTabBar">
+        <item name="horizontaltabbar_underlineHeight">5dp</item>
+        <item name="horizontaltabbar_underlineColor">@android:color/transparent</item>
+        <item name="horizontaltabbar_indicatorColor">@color/green</item>
+        <item name="horizontaltabbar_indicatorHeight">5dp</item>
+        <item name="horizontaltabbar_dividerWidth">1dp</item>
+        <item name="horizontaltabbar_dividerColor">@android:color/transparent</item>
+        <item name="horizontaltabbar_dividerPaddingTop">5dp</item>
+        <item name="horizontaltabbar_dividerPaddingBottom">5dp</item>
+        <item name="horizontaltabbar_tabPaddingLeft">20dp</item>
+        <item name="horizontaltabbar_tabPaddingRight">20dp</item>
+        <item name="horizontaltabbar_tabColor">@android:color/white</item>
+        <item name="horizontaltabbar_tabSelectedTextColor">@color/green</item>
+        <item name="horizontaltabbar_tabTextSize">15sp</item>
+        <item name="horizontaltabbar_tabTextColor">@color/green</item>
+        <item name="horizontaltabbar_isAverage">false</item>
+        <item name="horizontaltabbar_textAllCaps">true</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.LetterView">
+        <item name="letterview_letters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+        <item name="letterview_textSize">12sp</item>
+        <item name="letterview_textColor">@color/light_gray</item>
+        <item name="letterview_hoverTextColor">@color/light_blue</item>
+        <item name="letterview_textAllCaps">true</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.RadarView">
+        <item name="radarview_radarColor">@color/green</item>
+        <item name="radarview_circleRadius">15dp</item>
+        <item name="radarview_spaceRadius">20dp</item>
+        <item name="radarview_annulusNum">5</item>
+        <item name="radarview_annulusWidth">1dp</item>
+        <item name="radarview_annulusColor">@color/green</item>
+        <item name="radarview_rotateRate">slow</item>
+        <item name="radarview_reverse">false</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.HighlightTextView">
+        <item name="highlighttextview_defaultColor">@color/gray</item>
+        <item name="highlighttextview_highlightColor">@color/white</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.AutoEditTextGroup">
+        <item name="autoedittextgroup_sectionTextSize">6sp</item>
+        <item name="autoedittextgroup_semicolonTextSize">5sp</item>
+        <item name="autoedittextgroup_sectionPadding">4dp</item>
+        <item name="autoedittextgroup_semicolonPadding">2dp</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.AnimatorScrollView">
+        <item name="animatorscrollview_firstMatchHeight">true</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.AnimatorHorizontalScrollView">
+        <item name="animatorhorizontalscrollview_firstMatchWidth">true</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.AnimatorViewWrapper">
+        <item name="animatorviewwrapper_alpha">true</item>
+        <item name="animatorviewwrapper_scaleX">true</item>
+        <item name="animatorviewwrapper_scaleY">true</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.BottomNavigationBar">
+        <item name="bottomnavigationbar_checkedButton">-1</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.InstrumentView">
+        <item name="instrumentview_title">Title</item>
+        <item name="instrumentview_body">Body</item>
+        <item name="instrumentview_titleTextColor">@color/blue</item>
+        <item name="instrumentview_titleTextSize">15sp</item>
+        <item name="instrumentview_bodyTextColor">@color/black</item>
+        <item name="instrumentview_bodyTextSize">12sp</item>
+        <item name="instrumentview_annulusWidth">5dp</item>
+        <item name="instrumentview_backgroundColor">@color/gray</item>
+        <item name="instrumentview_annulusColor">@color/snow</item>
+        <item name="instrumentview_annulusHoverColor">@color/light_sky_blue</item>
+        <item name="instrumentview_animationTime">500</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.VerifyCodeEditTextGroup"
+        parent="JackKnife.Theme.Widget.AutoEditTextGroup">
+        <item name="verifycodeedittextgroup_type">lengthSix</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.TitleBar">
+        <item name="titlebar_title">title</item>
+        <item name="titlebar_titleTextColor">@color/gray</item>
+        <item name="titlebar_titleTextSize">15sp</item>
+        <item name="titlebar_leftDrawableSize">20dp</item>
+        <item name="titlebar_rightDrawableSize">20dp</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.SlidingMenu">
+        <item name="slidingmenu_menuRightPadding">100dp</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.ProgressButton">
+        <item name="progressbutton_cornerRadius">4dp</item>
+        <item name="progressbutton_showBorder">true</item>
+        <item name="progressbutton_borderWidth">1dp</item>
+        <item name="progressbutton_textSize">15sp</item>
+        <item name="progressbutton_textColor">@color/light_sky_blue</item>
+        <item name="progressbutton_hoverTextColor">@color/white</item>
+        <item name="progressbutton_backgroundColor">@color/light_sky_blue</item>
+        <item name="progressbutton_secondaryBackgroundColor">@color/blue</item>
+        <item name="progressbutton_ballSpacing">1dp</item>
+        <item name="progressbutton_ballRadius">1dp</item>
+    </style>
+    <style name="JackKnife.Theme.Widget.BaseDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
